@@ -1,0 +1,44 @@
+@CHARSET "EUC-KR";
+/*********** Base Style ***********/
+html {
+	-webkit-text-size-adjust:none;
+	height:100%;
+}
+* { margin: 0; padding: 0; border: 0;}
+body,th,td {
+	font-family: "나눔고딕",NanumGothic,"굴림",Gulim,Helvetica,AppleGothic,Sans-serif;
+	font-size: 14px;
+	line-height:1.25em;
+	color: #444;
+}
+
+a { color: #444; text-decoration: none;}
+/* 링크에 마우스를 올렸을 때 , text-decoration: none; 링크선 없애는 것*/
+a:hover { color: #000; text-decoration: none; }
+/* 링크 걸었을때 주위에 테두리 점선 없애기 */
+a,img {selector-dummy: expression(this.hideFocus=true);}
+
+input,textarea,select {  
+	font-family: "나눔고딕",NanumGothic,"굴림",Gulim,Helvetica,AppleGothic,Sans-serif;
+	font-size: 12px;
+	line-height:1.25em;
+	height: 18px; 
+	vertical-align: middle; 
+}
+
+img { vertical-align: top; border: 0;}
+h1 img,h2 img,h3 img { vertical-align: top; }
+h1,h2,h3,h4,h5 { font-size: 12px; line-height: 16px;}
+ol,ul,li { list-style: none;}
+.clr{clear:both;}
+
+table { border-collapse: collapse;}
+em { font-style: normal;}
+
+
+#wrap{
+	width: 100%;
+	margin: 0 auto;
+	min-width:320px;
+}
+
