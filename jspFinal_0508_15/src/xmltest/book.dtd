@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!ELEMENT KOSTA97 (기사)+>
+	<!ELEMENT 기사 (기자이름,기사날짜,기사제목,내용,지역)>
+	<!ELEMENT 기자이름 (#PCDATA)>
+	<!ELEMENT 기사날짜 (#PCDATA)>
+	<!ELEMENT 기사제목 (#PCDATA)>
+	<!ELEMENT 내용 (#PCDATA)>
+	<!ELEMENT 지역 ((나라,도시)|(지역명,인구수))>
+	<!ELEMENT 나라 (#PCDATA)>
+	<!ELEMENT 도시 (#PCDATA)>
+	<!ELEMENT 지역명 (#PCDATA)>
+	<!ELEMENT 인구수 (#PCDATA)>
+	<!ATTLIST 기자이름 기자번호 ID #REQUIRED>
